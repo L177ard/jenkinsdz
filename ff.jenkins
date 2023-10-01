@@ -11,12 +11,12 @@ pipeline {
 	stages {
 		stage("First step") {
 			steps {
-				sh 'ping mail.ru/'
+				bat 'ping mail.ru/'
 			}
 		}
 		stage("Second step") {
 			steps {
-				sh 'ping https://mtkp.bmstu.ru/'
+				bat 'ping https://mtkp.bmstu.ru/'
 			}
 		}
 	}
