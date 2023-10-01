@@ -11,8 +11,7 @@ pipeline {
 	stages {
 		stage("First step") {
 			steps {
-				sh 'git --version'
-				//sh 'ping mail.ru/'
+				sh 'ping ea.com'
 			}
 		}
 		stage("Second step") {
