@@ -16,7 +16,7 @@ pipeline {
 		}
 		stage("Second step") {
 			steps {
-				sh 'ping https://mtkp.bmstu.ru/'
+				sh 'ping mit.edu'
 			}
 		}
 	}
